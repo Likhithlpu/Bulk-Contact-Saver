@@ -24,31 +24,51 @@ Once you downloaded the XAMPP install it and open the application and start apac
 ## Google Contacts
 
 **Step1:** Download the google contacts application in your mobile and signin with your gmail account 
+
 **Step2:** Go to https://contacts.google.com/ on your computer
+
 **Step3:** In the Side Navigation bar there is a option stated as Import click on that and upload the file which is downloaded now
+
 **Step4:** Now wait for to upload
+
 **Step5:** Open the Google contacts application in your phone and wait for 1-2 min
+
 **Step6:** It will be automatically synced to your mobile contacts and it will be saved in your mobile
+
 **You can see the contacts named as newmembers_somerandomlettersandnumbers. Ex: newmember_d9s1dv8vad5d55d6. If you wish to change check developer options below**
+
 
 ## Developer Options and Line to Line Explanation
 
 Got to **index.php**
-**Line 1** States the csv file which is having numbers to save\
-**Line 2** States the name of the file which is going to be downloaded
-**Line 3** States the Prefix Currently **newmembers** you can change it accordingly like **sectionA, Batch2021, Teammbers etc**
-**Line 4** States the name of the group which is created in google contacts. You can change it Accordingly
-**Line 5** States the type of file **Like CSV, XLSX, XLS, XLTX etc
-**Line 6** States its Disposition
-**Line 7** States its Directive
-**Line 8** States the Expiring time of the session
-**Line 9** Variable
-**Line 10** Writing the Coloums according to the format of Google contacts import file
-**Line 11,12** A for loop which takes the input from the uploaded file and writes the output to a file along with the labels and prefix which we stated in the **lines 3,4
 
-**Please Fork, Star, Follow if you found this useful for you.
+**Line 1** States the csv file which is having numbers to save
+
+**Line 2** States the name of the file which is going to be downloaded
+
+**Line 3** States the Prefix Currently **newmembers** you can change it accordingly like **sectionA, Batch2021, Teammbers etc**
+
+**Line 4** States the name of the group which is created in google contacts. You can change it Accordingly
+
+**Line 5** States the type of file **Like CSV, XLSX, XLS, XLTX etc
+
+**Line 6** States its Disposition
+
+**Line 7** States its Directive
+
+**Line 8** States the Expiring time of the session
+
+**Line 9** Variable
+
+**Line 10** Writing the Coloums according to the format of Google contacts import file
+
+**Line 11,12** A for loop which takes the input from the uploaded file and writes the output to a file along with the labels and prefix which we stated in the **lines 3,4**
+
+
+**Please Fork, Star, Follow if you found this useful for you.**
 
 **Thanks and Regards**
+
 **Bala Likhith Kanigolla**
 
 
