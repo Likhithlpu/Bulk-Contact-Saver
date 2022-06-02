@@ -1,5 +1,4 @@
-# Bulk-Contact-Saver
-
+# Lazy-Contacts
 ## Prerequisites
 
 First Download the XAMPP from here: 
